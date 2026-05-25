@@ -38,13 +38,12 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Задания",
+          title: "Заданиѝ",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="home-outline" size={size} color={color} />
           ),
         }}
       />
-
       <Tabs.Screen
         name="feed"
         options={{
@@ -54,7 +53,7 @@ export default function TabsLayout() {
           ),
         }}
       />
-
+      \\ hello
       <Tabs.Screen
         name="profile"
         options={{
@@ -64,7 +63,6 @@ export default function TabsLayout() {
           ),
         }}
       />
-
       <Tabs.Screen
         name="leaderboard"
         options={{
@@ -74,7 +72,6 @@ export default function TabsLayout() {
           ),
         }}
       />
-
       <Tabs.Screen
         name="map"
         options={{
