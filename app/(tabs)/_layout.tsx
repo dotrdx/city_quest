@@ -53,7 +53,7 @@ export default function TabsLayout() {
           ),
         }}
       />
-      \\ tesing my file
+
       <Tabs.Screen
         name="profile"
         options={{
